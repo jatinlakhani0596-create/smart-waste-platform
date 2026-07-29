@@ -1,0 +1,18 @@
+import { Router } from "express";
+import authRoutes from "./authRoutes.js";
+import complaintRoutes from "./complaintRoutes.js";
+import aiRoutes from "./aiRoutes.js";
+import routingRoutes from "./routingRoutes.js";
+import analyticsRoutes from "./analyticsRoutes.js";
+import complianceRoutes from "./complianceRoutes.js";
+
+const router = Router();
+
+router.use(authRoutes);
+router.use(complaintRoutes);
+router.use(aiRoutes);
+router.use(routingRoutes);
+router.use(analyticsRoutes);
+router.use(complianceRoutes);
+
+export default router;

@@ -1,0 +1,38 @@
+{
+  "name": "smart-waste-platform",
+  "version": "1.0.0",
+  "description": "AI-powered Smart Waste Management Platform",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "start:demo": "node dist/index.js",
+    "dev": "node --loader ts-node/esm src/app.ts",
+    "dev:server": "node --loader ts-node/esm src/app.ts",
+    "web": "node dist/server.js",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.18",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.5"
+  }
+}

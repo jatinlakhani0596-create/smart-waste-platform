@@ -1,0 +1,1958 @@
+{
+  "users": [
+    {
+      "id": "USR-1001",
+      "name": "Anjali Patel",
+      "email": "anjali.patel@example.com",
+      "passwordHash": "$2a$10$Hn6C3xqRq0/whpP5GmCYwOKrFXN6t35cNt3BXxVjvYx7ZraNfrn8e",
+      "role": "citizen",
+      "ward": "Ward 12",
+      "registeredAt": "2026-06-14T11:56:03.524Z"
+    },
+    {
+      "id": "USR-1002",
+      "name": "Rohit Kumar",
+      "email": "rohit.kumar@example.com",
+      "passwordHash": "",
+      "role": "citizen",
+      "ward": "Ward 7",
+      "registeredAt": "2026-07-09T11:56:03.524Z"
+    },
+    {
+      "id": "USR-2001",
+      "name": "Meera Singh",
+      "email": "meera.singh@example.com",
+      "passwordHash": "",
+      "role": "supervisor",
+      "ward": "Ward 12",
+      "registeredAt": "2026-04-20T11:56:03.524Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "RPT-0001",
+      "createdAt": "2026-07-26T11:56:03.524Z",
+      "citizenId": "CIT-01000",
+      "ward": "07",
+      "location": {
+        "lat": 40.85916,
+        "lng": -74.03935,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "overflow",
+      "severity": "critical",
+      "status": "pending",
+      "title": "Overflowing bin near the bus stop, waste s",
+      "description": "Overflowing bin near the bus stop, waste spilling on sidewalk.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Overflowing bin near the bus stop, waste spilling on sidewalk. issue with priority critical.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-26T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0002",
+      "createdAt": "2026-07-20T11:56:03.524Z",
+      "citizenId": "CIT-01001",
+      "ward": "03",
+      "location": {
+        "lat": 40.62536,
+        "lng": -73.96586,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "pending",
+      "title": "Illegal dumping of construction debris in ",
+      "description": "Illegal dumping of construction debris in the alley.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Illegal dumping of construction debris in the alley. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-20T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0003",
+      "createdAt": "2026-07-23T11:56:03.524Z",
+      "citizenId": "CIT-01002",
+      "ward": "03",
+      "location": {
+        "lat": 40.786989999999996,
+        "lng": -73.8551,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "mixed-waste",
+      "severity": "low",
+      "status": "resolved",
+      "title": "Medical waste improperly disposed of in a ",
+      "description": "Medical waste improperly disposed of in a general bin.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Medical waste improperly disposed of in a general bin. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-23T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0004",
+      "createdAt": "2026-07-29T11:56:03.524Z",
+      "citizenId": "CIT-01003",
+      "ward": "03",
+      "location": {
+        "lat": 40.763619999999996,
+        "lng": -74.06845,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "missed-collection",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Burning smell from a bin, possible hazardo",
+      "description": "Burning smell from a bin, possible hazardous waste.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Burning smell from a bin, possible hazardous waste. issue with priority medium.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-29T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0005",
+      "createdAt": "2026-07-23T11:56:03.524Z",
+      "citizenId": "CIT-01004",
+      "ward": "12",
+      "location": {
+        "lat": 40.702639999999995,
+        "lng": -74.05281000000001,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "missed-collection",
+      "severity": "high",
+      "status": "pending",
+      "title": "Recyclable bin full despite recent schedul",
+      "description": "Recyclable bin full despite recent schedule — missed collection.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Recyclable bin full despite recent schedule — missed collection. issue with priority high.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-23T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0006",
+      "createdAt": "2026-07-29T11:56:03.524Z",
+      "citizenId": "CIT-01005",
+      "ward": "07",
+      "location": {
+        "lat": 40.75582,
+        "lng": -74.00775999999999,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "missed-collection",
+      "severity": "critical",
+      "status": "pending",
+      "title": "E-waste (TV, monitor) left on the footpath",
+      "description": "E-waste (TV, monitor) left on the footpath.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as E-waste (TV, monitor) left on the footpath. issue with priority critical.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-29T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0007",
+      "createdAt": "2026-07-28T11:56:03.524Z",
+      "citizenId": "CIT-01006",
+      "ward": "03",
+      "location": {
+        "lat": 40.68425,
+        "lng": -73.96051,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "missed-collection",
+      "severity": "medium",
+      "status": "pending",
+      "title": "Dead animal near waste collection point.",
+      "description": "Dead animal near waste collection point.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Dead animal near waste collection point. issue with priority medium.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0008",
+      "createdAt": "2026-07-28T11:56:03.524Z",
+      "citizenId": "CIT-01007",
+      "ward": "03",
+      "location": {
+        "lat": 40.658649999999994,
+        "lng": -73.93516,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "resolved",
+      "title": "Broken bin lid — waste exposed to rain.",
+      "description": "Broken bin lid — waste exposed to rain.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Broken bin lid — waste exposed to rain. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0009",
+      "createdAt": "2026-07-26T11:56:03.524Z",
+      "citizenId": "CIT-01008",
+      "ward": "03",
+      "location": {
+        "lat": 40.68693,
+        "lng": -74.12051,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "missed-collection",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Bin relocated by residents, not at designa",
+      "description": "Bin relocated by residents, not at designated GPS point.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Bin relocated by residents, not at designated GPS point. issue with priority high.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-26T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0010",
+      "createdAt": "2026-07-26T11:56:03.524Z",
+      "citizenId": "CIT-01009",
+      "ward": "12",
+      "location": {
+        "lat": 40.790769999999995,
+        "lng": -73.97297,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "missed-collection",
+      "severity": "medium",
+      "status": "pending",
+      "title": "Large-scale littering after street fair ev",
+      "description": "Large-scale littering after street fair event.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Large-scale littering after street fair event. issue with priority medium.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-26T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0011",
+      "createdAt": "2026-07-27T11:56:03.524Z",
+      "citizenId": "CIT-01010",
+      "ward": "07",
+      "location": {
+        "lat": 40.73892,
+        "lng": -73.9335,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "overflow",
+      "severity": "critical",
+      "status": "pending",
+      "title": "Overflowing bin near the bus stop, waste s",
+      "description": "Overflowing bin near the bus stop, waste spilling on sidewalk.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Overflowing bin near the bus stop, waste spilling on sidewalk. issue with priority critical.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-27T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0012",
+      "createdAt": "2026-07-22T11:56:03.524Z",
+      "citizenId": "CIT-01011",
+      "ward": "03",
+      "location": {
+        "lat": 40.75544,
+        "lng": -74.05993000000001,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "pending",
+      "title": "Illegal dumping of construction debris in ",
+      "description": "Illegal dumping of construction debris in the alley.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Illegal dumping of construction debris in the alley. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-22T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0013",
+      "createdAt": "2026-07-28T11:56:03.524Z",
+      "citizenId": "CIT-01012",
+      "ward": "03",
+      "location": {
+        "lat": 40.721579999999996,
+        "lng": -73.91421,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "mixed-waste",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Medical waste improperly disposed of in a ",
+      "description": "Medical waste improperly disposed of in a general bin.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Medical waste improperly disposed of in a general bin. issue with priority high.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0014",
+      "createdAt": "2026-07-22T11:56:03.524Z",
+      "citizenId": "CIT-01013",
+      "ward": "03",
+      "location": {
+        "lat": 40.78201,
+        "lng": -74.01225,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "resolved",
+      "title": "Burning smell from a bin, possible hazardo",
+      "description": "Burning smell from a bin, possible hazardous waste.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Burning smell from a bin, possible hazardous waste. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-22T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0015",
+      "createdAt": "2026-07-21T11:56:03.524Z",
+      "citizenId": "CIT-01014",
+      "ward": "12",
+      "location": {
+        "lat": 40.73271999999999,
+        "lng": -73.99364,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "pending",
+      "title": "Recyclable bin full despite recent schedul",
+      "description": "Recyclable bin full despite recent schedule — missed collection.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Recyclable bin full despite recent schedule — missed collection. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-21T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0016",
+      "createdAt": "2026-07-27T11:56:03.524Z",
+      "citizenId": "CIT-01015",
+      "ward": "07",
+      "location": {
+        "lat": 40.85428,
+        "lng": -73.93128999999999,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "missed-collection",
+      "severity": "critical",
+      "status": "pending",
+      "title": "E-waste (TV, monitor) left on the footpath",
+      "description": "E-waste (TV, monitor) left on the footpath.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as E-waste (TV, monitor) left on the footpath. issue with priority critical.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-27T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0017",
+      "createdAt": "2026-07-23T11:56:03.524Z",
+      "citizenId": "CIT-01016",
+      "ward": "03",
+      "location": {
+        "lat": 40.74684,
+        "lng": -74.02207,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "missed-collection",
+      "severity": "high",
+      "status": "pending",
+      "title": "Dead animal near waste collection point.",
+      "description": "Dead animal near waste collection point.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Dead animal near waste collection point. issue with priority high.",
+      "assignedDepartment": "Ward Sanitation Department",
+      "escalatedAt": "2026-07-28T11:56:03.524Z",
+      "updatedAt": "2026-07-23T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0018",
+      "createdAt": "2026-07-24T11:56:03.524Z",
+      "citizenId": "CIT-01017",
+      "ward": "03",
+      "location": {
+        "lat": 40.77648,
+        "lng": -73.82892,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "resolved",
+      "title": "Broken bin lid — waste exposed to rain.",
+      "description": "Broken bin lid — waste exposed to rain.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Broken bin lid — waste exposed to rain. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-24T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0019",
+      "createdAt": "2026-07-23T11:56:03.524Z",
+      "citizenId": "CIT-01018",
+      "ward": "03",
+      "location": {
+        "lat": 40.711819999999996,
+        "lng": -74.02898,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "missed-collection",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Bin relocated by residents, not at designa",
+      "description": "Bin relocated by residents, not at designated GPS point.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Bin relocated by residents, not at designated GPS point. issue with priority medium.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-23T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0020",
+      "createdAt": "2026-07-20T11:56:03.524Z",
+      "citizenId": "CIT-01019",
+      "ward": "12",
+      "location": {
+        "lat": 40.662569999999995,
+        "lng": -73.90745,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "missed-collection",
+      "severity": "low",
+      "status": "pending",
+      "title": "Large-scale littering after street fair ev",
+      "description": "Large-scale littering after street fair event.",
+      "imageUrl": null,
+      "aiSummary": "Auto-classified as Large-scale littering after street fair event. issue with priority low.",
+      "assignedDepartment": "Local Waste Team",
+      "escalatedAt": null,
+      "updatedAt": "2026-07-20T11:56:03.524Z"
+    }
+  ],
+  "wards": [
+    {
+      "id": "12",
+      "name": "Ward 12",
+      "population": 65000,
+      "dailyPickupTarget": 120,
+      "pendingComplaints": 14,
+      "complianceRate": 76,
+      "region": "North"
+    },
+    {
+      "id": "07",
+      "name": "Ward 7",
+      "population": 52000,
+      "dailyPickupTarget": 95,
+      "pendingComplaints": 9,
+      "complianceRate": 81,
+      "region": "South"
+    },
+    {
+      "id": "03",
+      "name": "Ward 3",
+      "population": 47000,
+      "dailyPickupTarget": 80,
+      "pendingComplaints": 6,
+      "complianceRate": 84,
+      "region": "East"
+    }
+  ],
+  "householdCompliance": [
+    {
+      "householdId": "HH-001",
+      "ward": "12",
+      "complianceScore": 72,
+      "lastUpdated": "2026-07-26T11:56:03.524Z",
+      "remindersSent": 2,
+      "preferredLanguage": "gu"
+    },
+    {
+      "householdId": "HH-002",
+      "ward": "07",
+      "complianceScore": 89,
+      "lastUpdated": "2026-07-28T11:56:03.524Z",
+      "remindersSent": 0,
+      "preferredLanguage": "en"
+    },
+    {
+      "householdId": "HH-003",
+      "ward": "03",
+      "complianceScore": 65,
+      "lastUpdated": "2026-07-22T11:56:03.524Z",
+      "remindersSent": 3,
+      "preferredLanguage": "hi"
+    }
+  ],
+  "aiDocuments": [
+    {
+      "id": "DOC-01",
+      "title": "Ward 12 Sanitation SOP",
+      "content": "All complaints related to missed pickups, overflow and mixed waste in Ward 12 must be routed to the Ward 12 Sanitation Department within 2 hours.",
+      "source": "Internal SOP"
+    },
+    {
+      "id": "DOC-02",
+      "title": "Segregation Guidelines",
+      "content": "Households must separate organic, recyclable, hazardous, medical, ewaste and general waste. Recyclable waste should be cleaned and dry before disposal.",
+      "source": "Municipal Guidelines"
+    },
+    {
+      "id": "DOC-03",
+      "title": "Complaint Escalation Rules",
+      "content": "Unresolved high-priority complaints escalate automatically after 24 hours to the supervisor and then to the municipal control room after 48 hours.",
+      "source": "Policy Document"
+    }
+  ],
+  "bins": [
+    {
+      "id": "BIN-001",
+      "location": {
+        "lat": 40.76122,
+        "lng": -73.97963,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "organic",
+      "capacityLiters": 120,
+      "fillLevel": 6,
+      "status": "damaged",
+      "lastCollected": "2026-07-23T11:56:03.523Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 42
+    },
+    {
+      "id": "BIN-002",
+      "location": {
+        "lat": 40.72866,
+        "lng": -73.97558000000001,
+        "address": "1 Harbor Dr",
+        "zone": "South"
+      },
+      "category": "recyclable",
+      "capacityLiters": 240,
+      "fillLevel": 92,
+      "status": "full",
+      "lastCollected": "2026-07-25T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 55
+    },
+    {
+      "id": "BIN-003",
+      "location": {
+        "lat": 40.696659999999994,
+        "lng": -73.88767,
+        "address": "5 Sunrise Rd",
+        "zone": "East"
+      },
+      "category": "hazardous",
+      "capacityLiters": 360,
+      "fillLevel": 17,
+      "status": "empty",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 52
+    },
+    {
+      "id": "BIN-004",
+      "location": {
+        "lat": 40.76891,
+        "lng": -74.10941,
+        "address": "3 Sunset Blvd",
+        "zone": "West"
+      },
+      "category": "general",
+      "capacityLiters": 660,
+      "fillLevel": 68,
+      "status": "partial",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 34
+    },
+    {
+      "id": "BIN-005",
+      "location": {
+        "lat": 40.747139999999995,
+        "lng": -73.94097000000001,
+        "address": "100 Main St",
+        "zone": "Central"
+      },
+      "category": "ewaste",
+      "capacityLiters": 1100,
+      "fillLevel": 13,
+      "status": "empty",
+      "lastCollected": "2026-07-26T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 66
+    },
+    {
+      "id": "BIN-006",
+      "location": {
+        "lat": 40.74918,
+        "lng": -74.00638,
+        "address": "34 Pine Rd",
+        "zone": "North"
+      },
+      "category": "medical",
+      "capacityLiters": 120,
+      "fillLevel": 19,
+      "status": "empty",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 50
+    },
+    {
+      "id": "BIN-007",
+      "location": {
+        "lat": 40.66355,
+        "lng": -74.00460000000001,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "organic",
+      "capacityLiters": 240,
+      "fillLevel": 5,
+      "status": "empty",
+      "lastCollected": "2026-07-27T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 83
+    },
+    {
+      "id": "BIN-008",
+      "location": {
+        "lat": 40.77663999999999,
+        "lng": -73.8307,
+        "address": "17 Dawn St",
+        "zone": "East"
+      },
+      "category": "recyclable",
+      "capacityLiters": 360,
+      "fillLevel": 100,
+      "status": "overflow",
+      "lastCollected": "2026-07-27T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 33
+    },
+    {
+      "id": "BIN-009",
+      "location": {
+        "lat": 40.74565,
+        "lng": -74.03578999999999,
+        "address": "15 Dusk Rd",
+        "zone": "West"
+      },
+      "category": "hazardous",
+      "capacityLiters": 660,
+      "fillLevel": 13,
+      "status": "empty",
+      "lastCollected": "2026-07-24T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 55
+    },
+    {
+      "id": "BIN-010",
+      "location": {
+        "lat": 40.71127,
+        "lng": -74.0145,
+        "address": "200 City Hall Rd",
+        "zone": "Central"
+      },
+      "category": "general",
+      "capacityLiters": 1100,
+      "fillLevel": 60,
+      "status": "partial",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 62
+    },
+    {
+      "id": "BIN-011",
+      "location": {
+        "lat": 40.76214,
+        "lng": -73.94354,
+        "address": "56 Oak St",
+        "zone": "North"
+      },
+      "category": "ewaste",
+      "capacityLiters": 120,
+      "fillLevel": 39,
+      "status": "empty",
+      "lastCollected": "2026-07-25T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 72
+    },
+    {
+      "id": "BIN-012",
+      "location": {
+        "lat": 40.6925,
+        "lng": -73.98703,
+        "address": "44 Cove St",
+        "zone": "South"
+      },
+      "category": "medical",
+      "capacityLiters": 240,
+      "fillLevel": 37,
+      "status": "empty",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 26
+    },
+    {
+      "id": "BIN-013",
+      "location": {
+        "lat": 40.77764,
+        "lng": -73.84465,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "organic",
+      "capacityLiters": 360,
+      "fillLevel": 81,
+      "status": "full",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 16
+    },
+    {
+      "id": "BIN-014",
+      "location": {
+        "lat": 40.752939999999995,
+        "lng": -74.12832,
+        "address": "27 Twilight St",
+        "zone": "West"
+      },
+      "category": "recyclable",
+      "capacityLiters": 660,
+      "fillLevel": 85,
+      "status": "full",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 39
+    },
+    {
+      "id": "BIN-015",
+      "location": {
+        "lat": 40.70775,
+        "lng": -74.00657000000001,
+        "address": "300 Plaza Ave",
+        "zone": "Central"
+      },
+      "category": "hazardous",
+      "capacityLiters": 1100,
+      "fillLevel": 28,
+      "status": "empty",
+      "lastCollected": "2026-07-25T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 87
+    },
+    {
+      "id": "BIN-016",
+      "location": {
+        "lat": 40.816520000000004,
+        "lng": -73.98364,
+        "address": "78 Elm Blvd",
+        "zone": "North"
+      },
+      "category": "general",
+      "capacityLiters": 120,
+      "fillLevel": 88,
+      "status": "damaged",
+      "lastCollected": "2026-07-26T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 61
+    },
+    {
+      "id": "BIN-017",
+      "location": {
+        "lat": 40.714059999999996,
+        "lng": -73.97106000000001,
+        "address": "66 Tide Ave",
+        "zone": "South"
+      },
+      "category": "ewaste",
+      "capacityLiters": 240,
+      "fillLevel": 78,
+      "status": "partial",
+      "lastCollected": "2026-07-27T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 44
+    },
+    {
+      "id": "BIN-018",
+      "location": {
+        "lat": 40.69412,
+        "lng": -73.86206,
+        "address": "41 Dew Ln",
+        "zone": "East"
+      },
+      "category": "medical",
+      "capacityLiters": 360,
+      "fillLevel": 49,
+      "status": "partial",
+      "lastCollected": "2026-07-27T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 78
+    },
+    {
+      "id": "BIN-019",
+      "location": {
+        "lat": 40.773039999999995,
+        "lng": -74.03125,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "organic",
+      "capacityLiters": 660,
+      "fillLevel": 38,
+      "status": "empty",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 44
+    },
+    {
+      "id": "BIN-020",
+      "location": {
+        "lat": 40.699189999999994,
+        "lng": -73.98010000000001,
+        "address": "400 Metro Blvd",
+        "zone": "Central"
+      },
+      "category": "recyclable",
+      "capacityLiters": 1100,
+      "fillLevel": 55,
+      "status": "partial",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 17
+    },
+    {
+      "id": "BIN-021",
+      "location": {
+        "lat": 40.76054,
+        "lng": -73.97922,
+        "address": "90 Cedar Ln",
+        "zone": "North"
+      },
+      "category": "hazardous",
+      "capacityLiters": 120,
+      "fillLevel": 45,
+      "status": "partial",
+      "lastCollected": "2026-07-26T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 27
+    },
+    {
+      "id": "BIN-022",
+      "location": {
+        "lat": 40.70744,
+        "lng": -74.00466,
+        "address": "88 Shore Blvd",
+        "zone": "South"
+      },
+      "category": "general",
+      "capacityLiters": 240,
+      "fillLevel": 36,
+      "status": "empty",
+      "lastCollected": "2026-07-25T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 98
+    },
+    {
+      "id": "BIN-023",
+      "location": {
+        "lat": 40.72884,
+        "lng": -73.84438,
+        "address": "53 Horizon Dr",
+        "zone": "East"
+      },
+      "category": "ewaste",
+      "capacityLiters": 360,
+      "fillLevel": 33,
+      "status": "empty",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 64
+    },
+    {
+      "id": "BIN-024",
+      "location": {
+        "lat": 40.749039999999994,
+        "lng": -74.08057,
+        "address": "51 Amber Ln",
+        "zone": "West"
+      },
+      "category": "medical",
+      "capacityLiters": 660,
+      "fillLevel": 24,
+      "status": "empty",
+      "lastCollected": "2026-07-25T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 17
+    },
+    {
+      "id": "BIN-025",
+      "location": {
+        "lat": 40.69148,
+        "lng": -73.98168,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "organic",
+      "capacityLiters": 1100,
+      "fillLevel": 100,
+      "status": "overflow",
+      "lastCollected": "2026-07-24T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 36
+    },
+    {
+      "id": "BIN-026",
+      "location": {
+        "lat": 40.75079,
+        "lng": -73.97677999999999,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "recyclable",
+      "capacityLiters": 120,
+      "fillLevel": 90,
+      "status": "full",
+      "lastCollected": "2026-07-27T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 40
+    },
+    {
+      "id": "BIN-027",
+      "location": {
+        "lat": 40.65857,
+        "lng": -74.02535,
+        "address": "1 Harbor Dr",
+        "zone": "South"
+      },
+      "category": "hazardous",
+      "capacityLiters": 240,
+      "fillLevel": 66,
+      "status": "partial",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-31T11:56:03.524Z",
+      "sensorBattery": 84
+    },
+    {
+      "id": "BIN-028",
+      "location": {
+        "lat": 40.742709999999995,
+        "lng": -73.83539999999999,
+        "address": "5 Sunrise Rd",
+        "zone": "East"
+      },
+      "category": "general",
+      "capacityLiters": 360,
+      "fillLevel": 44,
+      "status": "partial",
+      "lastCollected": "2026-07-26T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 96
+    },
+    {
+      "id": "BIN-029",
+      "location": {
+        "lat": 40.703759999999996,
+        "lng": -74.03275,
+        "address": "3 Sunset Blvd",
+        "zone": "West"
+      },
+      "category": "ewaste",
+      "capacityLiters": 660,
+      "fillLevel": 24,
+      "status": "empty",
+      "lastCollected": "2026-07-28T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 51
+    },
+    {
+      "id": "BIN-030",
+      "location": {
+        "lat": 40.69658999999999,
+        "lng": -73.98618,
+        "address": "100 Main St",
+        "zone": "Central"
+      },
+      "category": "medical",
+      "capacityLiters": 1100,
+      "fillLevel": 85,
+      "status": "full",
+      "lastCollected": "2026-07-23T11:56:03.524Z",
+      "nextScheduled": "2026-07-30T11:56:03.524Z",
+      "sensorBattery": 53
+    }
+  ],
+  "trucks": [
+    {
+      "id": "TRK-01",
+      "licensePlate": "WM-1000",
+      "capacityKg": 5000,
+      "currentLoadKg": 1163,
+      "status": "on-route",
+      "driverName": "Alex Turner",
+      "location": {
+        "lat": 40.768190000000004,
+        "lng": -73.97801,
+        "address": "Depot North",
+        "zone": "North"
+      },
+      "fuelLevel": 78,
+      "lastService": "2026-06-14T11:56:03.524Z"
+    },
+    {
+      "id": "TRK-02",
+      "licensePlate": "WM-1111",
+      "capacityKg": 5000,
+      "currentLoadKg": 3260,
+      "status": "collecting",
+      "driverName": "Maria Santos",
+      "location": {
+        "lat": 40.67856,
+        "lng": -74.00147000000001,
+        "address": "Depot South",
+        "zone": "South"
+      },
+      "fuelLevel": 94,
+      "lastService": "2026-07-12T11:56:03.524Z"
+    },
+    {
+      "id": "TRK-03",
+      "licensePlate": "WM-1222",
+      "capacityKg": 5000,
+      "currentLoadKg": 838,
+      "status": "idle",
+      "driverName": "James Okafor",
+      "location": {
+        "lat": 40.733979999999995,
+        "lng": -73.87427,
+        "address": "Depot East",
+        "zone": "East"
+      },
+      "fuelLevel": 52,
+      "lastService": "2026-06-13T11:56:03.524Z"
+    },
+    {
+      "id": "TRK-04",
+      "licensePlate": "WM-1333",
+      "capacityKg": 5000,
+      "currentLoadKg": 4050,
+      "status": "on-route",
+      "driverName": "Priya Nair",
+      "location": {
+        "lat": 40.749649999999995,
+        "lng": -74.09486,
+        "address": "Depot West",
+        "zone": "West"
+      },
+      "fuelLevel": 30,
+      "lastService": "2026-06-01T11:56:03.524Z"
+    },
+    {
+      "id": "TRK-05",
+      "licensePlate": "WM-1444",
+      "capacityKg": 5000,
+      "currentLoadKg": 3688,
+      "status": "at-depot",
+      "driverName": "Chen Wei",
+      "location": {
+        "lat": 40.729679999999995,
+        "lng": -73.96992,
+        "address": "Depot Central",
+        "zone": "Central"
+      },
+      "fuelLevel": 63,
+      "lastService": "2026-06-06T11:56:03.524Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "RPT-0001",
+      "reportedAt": "2026-07-26T11:56:03.524Z",
+      "location": {
+        "lat": 40.85916,
+        "lng": -74.03935,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "organic",
+      "severity": "critical",
+      "description": "Overflowing bin near the bus stop, waste spilling on sidewalk.",
+      "imageHash": null,
+      "aiConfidence": 0.8905,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "pending",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01000",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0002",
+      "reportedAt": "2026-07-20T11:56:03.524Z",
+      "location": {
+        "lat": 40.62536,
+        "lng": -73.96586,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "recyclable",
+      "severity": "low",
+      "description": "Illegal dumping of construction debris in the alley.",
+      "imageHash": "sha256:hngre5shtkc",
+      "aiConfidence": 0.6197,
+      "aiTags": [
+        "overflow",
+        "litter",
+        "hazard"
+      ],
+      "status": "assigned",
+      "assignedTruckId": "TRK-02",
+      "citizenId": "CIT-01001",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0003",
+      "reportedAt": "2026-07-23T11:56:03.524Z",
+      "location": {
+        "lat": 40.786989999999996,
+        "lng": -73.8551,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "hazardous",
+      "severity": "low",
+      "description": "Medical waste improperly disposed of in a general bin.",
+      "imageHash": "sha256:c20cfplrsf8",
+      "aiConfidence": 0.8673000000000001,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "resolved",
+      "assignedTruckId": "TRK-03",
+      "citizenId": "CIT-01002",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0004",
+      "reportedAt": "2026-07-29T11:56:03.524Z",
+      "location": {
+        "lat": 40.763619999999996,
+        "lng": -74.06845,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "general",
+      "severity": "medium",
+      "description": "Burning smell from a bin, possible hazardous waste.",
+      "imageHash": null,
+      "aiConfidence": 0.8112999999999999,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "resolved",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01003",
+      "resolvedAt": "2026-07-29T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0005",
+      "reportedAt": "2026-07-23T11:56:03.524Z",
+      "location": {
+        "lat": 40.702639999999995,
+        "lng": -74.05281000000001,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "ewaste",
+      "severity": "high",
+      "description": "Recyclable bin full despite recent schedule — missed collection.",
+      "imageHash": "sha256:extbzbcdym9",
+      "aiConfidence": 0.8125,
+      "aiTags": [
+        "overflow",
+        "litter",
+        "hazard"
+      ],
+      "status": "pending",
+      "assignedTruckId": "TRK-05",
+      "citizenId": "CIT-01004",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0006",
+      "reportedAt": "2026-07-29T11:56:03.524Z",
+      "location": {
+        "lat": 40.75582,
+        "lng": -74.00775999999999,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "medical",
+      "severity": "critical",
+      "description": "E-waste (TV, monitor) left on the footpath.",
+      "imageHash": "sha256:qs6b4mj4c5g",
+      "aiConfidence": 0.6636,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "pending",
+      "assignedTruckId": "TRK-01",
+      "citizenId": "CIT-01005",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0007",
+      "reportedAt": "2026-07-28T11:56:03.524Z",
+      "location": {
+        "lat": 40.68425,
+        "lng": -73.96051,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "organic",
+      "severity": "medium",
+      "description": "Dead animal near waste collection point.",
+      "imageHash": null,
+      "aiConfidence": 0.9792000000000001,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "assigned",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01006",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0008",
+      "reportedAt": "2026-07-28T11:56:03.524Z",
+      "location": {
+        "lat": 40.658649999999994,
+        "lng": -73.93516,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "recyclable",
+      "severity": "low",
+      "description": "Broken bin lid — waste exposed to rain.",
+      "imageHash": "sha256:rd1u24g1f0q",
+      "aiConfidence": 0.6032,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "resolved",
+      "assignedTruckId": "TRK-03",
+      "citizenId": "CIT-01007",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0009",
+      "reportedAt": "2026-07-26T11:56:03.524Z",
+      "location": {
+        "lat": 40.68693,
+        "lng": -74.12051,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "hazardous",
+      "severity": "high",
+      "description": "Bin relocated by residents, not at designated GPS point.",
+      "imageHash": "sha256:6i9f8u8ppid",
+      "aiConfidence": 0.9248999999999999,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "resolved",
+      "assignedTruckId": "TRK-04",
+      "citizenId": "CIT-01008",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0010",
+      "reportedAt": "2026-07-26T11:56:03.524Z",
+      "location": {
+        "lat": 40.790769999999995,
+        "lng": -73.97297,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "general",
+      "severity": "medium",
+      "description": "Large-scale littering after street fair event.",
+      "imageHash": null,
+      "aiConfidence": 0.9882,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "pending",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01009",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0011",
+      "reportedAt": "2026-07-27T11:56:03.524Z",
+      "location": {
+        "lat": 40.73892,
+        "lng": -73.9335,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "ewaste",
+      "severity": "critical",
+      "description": "Overflowing bin near the bus stop, waste spilling on sidewalk.",
+      "imageHash": "sha256:2cfvxm8ar3d",
+      "aiConfidence": 0.9498000000000001,
+      "aiTags": [
+        "overflow",
+        "litter",
+        "hazard"
+      ],
+      "status": "pending",
+      "assignedTruckId": "TRK-01",
+      "citizenId": "CIT-01010",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0012",
+      "reportedAt": "2026-07-22T11:56:03.524Z",
+      "location": {
+        "lat": 40.75544,
+        "lng": -74.05993000000001,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "medical",
+      "severity": "low",
+      "description": "Illegal dumping of construction debris in the alley.",
+      "imageHash": "sha256:dtkw26qszvw",
+      "aiConfidence": 0.8283,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "assigned",
+      "assignedTruckId": "TRK-02",
+      "citizenId": "CIT-01011",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0013",
+      "reportedAt": "2026-07-28T11:56:03.524Z",
+      "location": {
+        "lat": 40.721579999999996,
+        "lng": -73.91421,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "organic",
+      "severity": "high",
+      "description": "Medical waste improperly disposed of in a general bin.",
+      "imageHash": null,
+      "aiConfidence": 0.6354,
+      "aiTags": [
+        "overflow",
+        "litter",
+        "hazard"
+      ],
+      "status": "resolved",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01012",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0014",
+      "reportedAt": "2026-07-22T11:56:03.524Z",
+      "location": {
+        "lat": 40.78201,
+        "lng": -74.01225,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "recyclable",
+      "severity": "low",
+      "description": "Burning smell from a bin, possible hazardous waste.",
+      "imageHash": "sha256:l7h4xdgtxtn",
+      "aiConfidence": 0.8576999999999999,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "resolved",
+      "assignedTruckId": "TRK-04",
+      "citizenId": "CIT-01013",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0015",
+      "reportedAt": "2026-07-21T11:56:03.524Z",
+      "location": {
+        "lat": 40.73271999999999,
+        "lng": -73.99364,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "hazardous",
+      "severity": "low",
+      "description": "Recyclable bin full despite recent schedule — missed collection.",
+      "imageHash": "sha256:mdbdubh25ql",
+      "aiConfidence": 0.9195,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "pending",
+      "assignedTruckId": "TRK-05",
+      "citizenId": "CIT-01014",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0016",
+      "reportedAt": "2026-07-27T11:56:03.524Z",
+      "location": {
+        "lat": 40.85428,
+        "lng": -73.93128999999999,
+        "address": "12 Maple Ave",
+        "zone": "North"
+      },
+      "category": "general",
+      "severity": "critical",
+      "description": "E-waste (TV, monitor) left on the footpath.",
+      "imageHash": null,
+      "aiConfidence": 0.9036,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "pending",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01015",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0017",
+      "reportedAt": "2026-07-23T11:56:03.524Z",
+      "location": {
+        "lat": 40.74684,
+        "lng": -74.02207,
+        "address": "22 Bay Rd",
+        "zone": "South"
+      },
+      "category": "ewaste",
+      "severity": "high",
+      "description": "Dead animal near waste collection point.",
+      "imageHash": "sha256:ual70aayffc",
+      "aiConfidence": 0.6761,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "assigned",
+      "assignedTruckId": "TRK-02",
+      "citizenId": "CIT-01016",
+      "resolvedAt": null
+    },
+    {
+      "id": "RPT-0018",
+      "reportedAt": "2026-07-24T11:56:03.524Z",
+      "location": {
+        "lat": 40.77648,
+        "lng": -73.82892,
+        "address": "29 Morning Ave",
+        "zone": "East"
+      },
+      "category": "medical",
+      "severity": "low",
+      "description": "Broken bin lid — waste exposed to rain.",
+      "imageHash": "sha256:7r5qafnxo5t",
+      "aiConfidence": 0.6866,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "resolved",
+      "assignedTruckId": "TRK-03",
+      "citizenId": "CIT-01017",
+      "resolvedAt": "2026-07-29T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0019",
+      "reportedAt": "2026-07-23T11:56:03.524Z",
+      "location": {
+        "lat": 40.711819999999996,
+        "lng": -74.02898,
+        "address": "39 Glow Ave",
+        "zone": "West"
+      },
+      "category": "organic",
+      "severity": "medium",
+      "description": "Bin relocated by residents, not at designated GPS point.",
+      "imageHash": null,
+      "aiConfidence": 0.726,
+      "aiTags": [
+        "overflow"
+      ],
+      "status": "resolved",
+      "assignedTruckId": null,
+      "citizenId": "CIT-01018",
+      "resolvedAt": "2026-07-28T11:56:03.524Z"
+    },
+    {
+      "id": "RPT-0020",
+      "reportedAt": "2026-07-20T11:56:03.524Z",
+      "location": {
+        "lat": 40.662569999999995,
+        "lng": -73.90745,
+        "address": "500 Hub Ln",
+        "zone": "Central"
+      },
+      "category": "recyclable",
+      "severity": "low",
+      "description": "Large-scale littering after street fair event.",
+      "imageHash": "sha256:skjt3etre6k",
+      "aiConfidence": 0.6535,
+      "aiTags": [
+        "overflow",
+        "litter"
+      ],
+      "status": "pending",
+      "assignedTruckId": "TRK-05",
+      "citizenId": "CIT-01019",
+      "resolvedAt": null
+    }
+  ],
+  "segregationRecords": [
+    {
+      "id": "SEG-0001",
+      "binId": "BIN-001",
+      "recordedAt": "2026-07-25T11:56:03.524Z",
+      "expectedCategory": "organic",
+      "detectedCategories": [
+        {
+          "category": "organic",
+          "percentage": 81
+        },
+        {
+          "category": "recyclable",
+          "percentage": 19
+        }
+      ],
+      "contaminationLevel": 19,
+      "complianceScore": 79,
+      "zone": "North",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0002",
+      "binId": "BIN-002",
+      "recordedAt": "2026-07-27T11:56:03.524Z",
+      "expectedCategory": "recyclable",
+      "detectedCategories": [
+        {
+          "category": "recyclable",
+          "percentage": 93
+        },
+        {
+          "category": "hazardous",
+          "percentage": 7
+        }
+      ],
+      "contaminationLevel": 7,
+      "complianceScore": 88,
+      "zone": "South",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0003",
+      "binId": "BIN-003",
+      "recordedAt": "2026-07-29T11:56:03.524Z",
+      "expectedCategory": "hazardous",
+      "detectedCategories": [
+        {
+          "category": "hazardous",
+          "percentage": 77
+        },
+        {
+          "category": "general",
+          "percentage": 23
+        }
+      ],
+      "contaminationLevel": 23,
+      "complianceScore": 69,
+      "zone": "East",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0004",
+      "binId": "BIN-004",
+      "recordedAt": "2026-07-28T11:56:03.524Z",
+      "expectedCategory": "general",
+      "detectedCategories": [
+        {
+          "category": "general",
+          "percentage": 78
+        },
+        {
+          "category": "ewaste",
+          "percentage": 22
+        }
+      ],
+      "contaminationLevel": 22,
+      "complianceScore": 74,
+      "zone": "West",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0005",
+      "binId": "BIN-005",
+      "recordedAt": "2026-07-26T11:56:03.524Z",
+      "expectedCategory": "ewaste",
+      "detectedCategories": [
+        {
+          "category": "ewaste",
+          "percentage": 86
+        },
+        {
+          "category": "medical",
+          "percentage": 14
+        }
+      ],
+      "contaminationLevel": 14,
+      "complianceScore": 83,
+      "zone": "Central",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0006",
+      "binId": "BIN-006",
+      "recordedAt": "2026-07-25T11:56:03.524Z",
+      "expectedCategory": "medical",
+      "detectedCategories": [
+        {
+          "category": "medical",
+          "percentage": 91
+        },
+        {
+          "category": "organic",
+          "percentage": 9
+        }
+      ],
+      "contaminationLevel": 9,
+      "complianceScore": 88,
+      "zone": "North",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0007",
+      "binId": "BIN-007",
+      "recordedAt": "2026-07-27T11:56:03.524Z",
+      "expectedCategory": "organic",
+      "detectedCategories": [
+        {
+          "category": "organic",
+          "percentage": 62
+        },
+        {
+          "category": "recyclable",
+          "percentage": 38
+        }
+      ],
+      "contaminationLevel": 38,
+      "complianceScore": 55,
+      "zone": "South",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0008",
+      "binId": "BIN-008",
+      "recordedAt": "2026-07-25T11:56:03.524Z",
+      "expectedCategory": "recyclable",
+      "detectedCategories": [
+        {
+          "category": "recyclable",
+          "percentage": 99
+        }
+      ],
+      "contaminationLevel": 1,
+      "complianceScore": 99,
+      "zone": "East",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0009",
+      "binId": "BIN-009",
+      "recordedAt": "2026-07-28T11:56:03.524Z",
+      "expectedCategory": "hazardous",
+      "detectedCategories": [
+        {
+          "category": "hazardous",
+          "percentage": 81
+        },
+        {
+          "category": "general",
+          "percentage": 19
+        }
+      ],
+      "contaminationLevel": 19,
+      "complianceScore": 80,
+      "zone": "West",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0010",
+      "binId": "BIN-010",
+      "recordedAt": "2026-07-28T11:56:03.524Z",
+      "expectedCategory": "general",
+      "detectedCategories": [
+        {
+          "category": "general",
+          "percentage": 91
+        },
+        {
+          "category": "ewaste",
+          "percentage": 9
+        }
+      ],
+      "contaminationLevel": 9,
+      "complianceScore": 83,
+      "zone": "Central",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0011",
+      "binId": "BIN-011",
+      "recordedAt": "2026-07-29T11:56:03.524Z",
+      "expectedCategory": "ewaste",
+      "detectedCategories": [
+        {
+          "category": "ewaste",
+          "percentage": 97
+        }
+      ],
+      "contaminationLevel": 3,
+      "complianceScore": 92,
+      "zone": "North",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0012",
+      "binId": "BIN-012",
+      "recordedAt": "2026-07-26T11:56:03.524Z",
+      "expectedCategory": "medical",
+      "detectedCategories": [
+        {
+          "category": "medical",
+          "percentage": 95
+        }
+      ],
+      "contaminationLevel": 5,
+      "complianceScore": 86,
+      "zone": "South",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0013",
+      "binId": "BIN-013",
+      "recordedAt": "2026-07-27T11:56:03.524Z",
+      "expectedCategory": "organic",
+      "detectedCategories": [
+        {
+          "category": "organic",
+          "percentage": 75
+        },
+        {
+          "category": "recyclable",
+          "percentage": 25
+        }
+      ],
+      "contaminationLevel": 25,
+      "complianceScore": 74,
+      "zone": "East",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0014",
+      "binId": "BIN-014",
+      "recordedAt": "2026-07-29T11:56:03.524Z",
+      "expectedCategory": "recyclable",
+      "detectedCategories": [
+        {
+          "category": "recyclable",
+          "percentage": 64
+        },
+        {
+          "category": "hazardous",
+          "percentage": 36
+        }
+      ],
+      "contaminationLevel": 36,
+      "complianceScore": 56,
+      "zone": "West",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0015",
+      "binId": "BIN-015",
+      "recordedAt": "2026-07-25T11:56:03.524Z",
+      "expectedCategory": "hazardous",
+      "detectedCategories": [
+        {
+          "category": "hazardous",
+          "percentage": 60
+        },
+        {
+          "category": "general",
+          "percentage": 40
+        }
+      ],
+      "contaminationLevel": 40,
+      "complianceScore": 59,
+      "zone": "Central",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0016",
+      "binId": "BIN-016",
+      "recordedAt": "2026-07-27T11:56:03.524Z",
+      "expectedCategory": "general",
+      "detectedCategories": [
+        {
+          "category": "general",
+          "percentage": 76
+        },
+        {
+          "category": "ewaste",
+          "percentage": 24
+        }
+      ],
+      "contaminationLevel": 24,
+      "complianceScore": 69,
+      "zone": "North",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0017",
+      "binId": "BIN-017",
+      "recordedAt": "2026-07-29T11:56:03.524Z",
+      "expectedCategory": "ewaste",
+      "detectedCategories": [
+        {
+          "category": "ewaste",
+          "percentage": 91
+        },
+        {
+          "category": "medical",
+          "percentage": 9
+        }
+      ],
+      "contaminationLevel": 9,
+      "complianceScore": 90,
+      "zone": "South",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0018",
+      "binId": "BIN-018",
+      "recordedAt": "2026-07-25T11:56:03.524Z",
+      "expectedCategory": "medical",
+      "detectedCategories": [
+        {
+          "category": "medical",
+          "percentage": 97
+        }
+      ],
+      "contaminationLevel": 3,
+      "complianceScore": 92,
+      "zone": "East",
+      "citizenFeedbackSent": false
+    },
+    {
+      "id": "SEG-0019",
+      "binId": "BIN-019",
+      "recordedAt": "2026-07-29T11:56:03.524Z",
+      "expectedCategory": "organic",
+      "detectedCategories": [
+        {
+          "category": "organic",
+          "percentage": 56
+        },
+        {
+          "category": "recyclable",
+          "percentage": 44
+        }
+      ],
+      "contaminationLevel": 44,
+      "complianceScore": 49,
+      "zone": "West",
+      "citizenFeedbackSent": true
+    },
+    {
+      "id": "SEG-0020",
+      "binId": "BIN-020",
+      "recordedAt": "2026-07-27T11:56:03.524Z",
+      "expectedCategory": "recyclable",
+      "detectedCategories": [
+        {
+          "category": "recyclable",
+          "percentage": 73
+        },
+        {
+          "category": "hazardous",
+          "percentage": 27
+        }
+      ],
+      "contaminationLevel": 27,
+      "complianceScore": 65,
+      "zone": "Central",
+      "citizenFeedbackSent": true
+    }
+  ]
+}

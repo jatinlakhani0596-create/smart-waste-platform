@@ -1,0 +1,13 @@
+{
+  "name": "smart-waste-platform",
+  "description": "AI-powered Smart Waste Management Platform built with TypeScript and Node.js",
+  "repository": "https://github.com/jatinlakhani0596-create/smart-waste-platform",
+  "keywords": [
+    "smart-city",
+    "waste-management",
+    "typescript",
+    "nodejs",
+    "ai"
+  ],
+  "env": {}
+}
